@@ -1,0 +1,105 @@
+body {
+  min-width: 320px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+img {
+  min-width: 100%;
+  height: auto;
+}
+a {
+  color: #b4ad9e;
+}
+a:hover {
+  color: #898377;
+}
+
+p {
+  line-height: 1.5rem;
+}
+h2,
+h3 {
+  margin: 1rem 0;
+  font-size: 30px;
+}
+
+header .navbar-brand {
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+}
+header .nav-item {
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.slider {
+  margin-bottom: 50px;
+}
+.post-category,
+.link-more {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.post-title a {
+  color: #626262;
+}
+.grid-posts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.grid-posts .card {
+  border: 0;
+  margin-bottom: 100px;
+}
+
+.grid-posts .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.grid-posts .card-img-top {
+  max-height: 350px;
+  border-right: 0;
+}
+.load-more {
+  padding: 1rem 2rem;
+  border-color: #626262;
+  border-radius: 0;
+}
+.load-more span {
+  display: none;
+}
+.signup {
+  background-color: #f0f0f0;
+  padding: 70px 0;
+}
+
+.signup form {
+  margin-top: 70px;
+}
+
+.signup .form-control {
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.form-imput .btn {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  color: #000;
+}
